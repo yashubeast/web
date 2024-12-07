@@ -1,0 +1,26 @@
+:root {
+	--primary: #27292c;
+	--primary-light: #303236;
+
+	--secondary: #d4d4d4;
+	--secondary-dark: #8d8d8d;
+	
+	--third: #89b4fa;
+	--third-light: #a6e5ff;
+}
+
+a:visited { color: var(--secondary); }
+
+body {
+	background-color: var(--primary);
+	color: var(--secondary);
+}
+
+#navbar-top {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#content {
+	margin-left: 1%;
+}
