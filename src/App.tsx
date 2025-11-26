@@ -14,7 +14,7 @@ function App() {
 
       <CompNavbar/>
 
-      <div className='root-body'>
+      <div className='body'>
       <Routes>
 
         <Route path="/" element=<PageHome/> />

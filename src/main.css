@@ -23,16 +23,17 @@
 .fg-purple { color: var(--purple); }
 .fg-maroon { color: var(--maroon); }
 
+/* applies globally*/
 .g-page {
   color: var(--white);
-  background-color: var(--maroon);
 }
 
-.root-navbar {
+/* root elements */
+.navbar {
   background-color: var(--black2);
   border-bottom: 1px solid var(--gray1);
 }
-.root-body {
+.body {
   background-color: var(--black1);
   padding: 2vh 20vh 2vh 20vh;
 }

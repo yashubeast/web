@@ -14,7 +14,7 @@ const extLinks = [
 
 const CompNavbar: React.FC = () => {
   return (
-    <nav className="root-navbar">
+    <nav className="navbar">
       <div className="flex justify-between items-center max-w-9xl mx-auto px-10 py-4">
         
         <div className="text-4xl font-semibold w-1/3 text-left fg-purple">
