@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'JetBrains Mono', monospace;
+
+  /* color scheme */
+  --black1: #121212; /* primary */
+  --black2: #1f2122; /* secondary */
+  --gray1: #2a2b2c; /* lines */
+  --black15: hsl(0,0%,15%);
+  --white: #ffffff;
+  --purple: #9e9eff;
+  --maroon: #B00020;
+}
+
+.bg-black1 { background-color: var(--black1); }
+.bg-black2 { background-color: var(--black2); }
+.bg-white { background-color: var(--white); }
+.bg-purple { background-color: var(--purple); }
+.bg-maroon { background-color: var(--maroon); }
+
+.fg-white { color: var(--white); }
+.fg-purple { color: var(--purple); }
+.fg-maroon { color: var(--maroon); }
+
+.g-page {
+  color: var(--white);
+  background-color: var(--maroon);
+}
+
+.root-navbar {
+  background-color: var(--black2);
+  border-bottom: 1px solid var(--gray1);
+}
+.root-body {
+  background-color: var(--black1);
+  padding: 2vh 20vh 2vh 20vh;
+}
