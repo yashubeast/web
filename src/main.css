@@ -6,11 +6,22 @@
   /* color scheme */
   --black1: #121212; /* primary */
   --black2: #1f2122; /* secondary */
+  --black3: #292c2e; /* hover */
   --gray1: #2a2b2c; /* lines */
   --black15: hsl(0,0%,15%);
   --white: #ffffff;
   --purple: #9e9eff;
   --maroon: #B00020;
+  --green: #a6e3a2;
+}
+
+body {
+  background-image: url(./assets/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
 }
 
 .bg-black1 { background-color: var(--black1); }
@@ -18,6 +29,7 @@
 .bg-white { background-color: var(--white); }
 .bg-purple { background-color: var(--purple); }
 .bg-maroon { background-color: var(--maroon); }
+.bg-green { background-color: var(--green); }
 
 .fg-white { color: var(--white); }
 .fg-purple { color: var(--purple); }
@@ -27,13 +39,14 @@
 .g-page {
   color: var(--white);
 }
+.g-button {
+  color: var(--white);
+  transition: color 200ms ease;
+} .g-button:hover { color: var(--purple); }
 
-/* root elements */
-.navbar {
-  background-color: var(--black2);
-  border-bottom: 1px solid var(--gray1);
-}
-.body {
-  background-color: var(--black1);
-  padding: 2vh 20vh 2vh 20vh;
+.container {
+  min-width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
